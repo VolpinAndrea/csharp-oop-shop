@@ -32,7 +32,7 @@ alla creazione di un nuovo prodotto il codice sia valorizzato con un numero rand
         }
         /*Il codice prodotto sia accessibile solo in lettura
 Gli altri attributi siano accessibili sia in lettura che in scrittura*/
-        public int getCodice()
+        public string getCodice()
         {
             return this.codice;
         }
